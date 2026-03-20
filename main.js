@@ -195,8 +195,8 @@ if (contactForm) {
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         body: new URLSearchParams(new FormData(this)).toString(),
       });
-      contactForm.hidden = true;
-      document.getElementById('form-success').hidden = false;
+      contactForm.style.display = 'none';
+      document.getElementById('form-success').style.display = 'flex';
     } catch (err) {
       btn.textContent = 'send_message →';
       btn.disabled = false;
