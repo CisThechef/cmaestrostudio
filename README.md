@@ -1,2 +1,2 @@
-# CMaestro Studio
-A Web3 community studio.
+# cmaestro website
+a landing page for CMaestro Studio
