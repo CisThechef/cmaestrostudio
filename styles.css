@@ -140,14 +140,7 @@ nav {
   gap: 14px;
   text-decoration: none;
 }
-/* .nav-mark {
-  font-family: var(--font-serif);
-  font-size: 30px;
-  font-weight: 600;
-  color: #9D7FD4;
-  line-height: 1;
-  text-shadow: 0 0 32px rgba(157,127,212,0.5);
-} */
+
 .nav-name {
   font-size: 11px;
   font-weight: 600;
@@ -354,111 +347,6 @@ h1 em {
   transform: translateY(-2px);
 }
 
-.hero-right {
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-}
-.hero-card {
-  padding: 24px 26px;
-  border-radius: 4px;
-  border: 1px solid var(--border);
-  background: var(--card);
-  backdrop-filter: blur(8px);
-  transition: border-color 0.25s, background 0.25s, transform 0.25s, box-shadow 0.25s;
-  position: relative;
-  overflow: hidden;
-}
-.hero-card::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 1px;
-  background: linear-gradient(90deg,transparent,var(--peach),transparent);
-  opacity: 0;
-  transition: opacity 0.3s;
-}
-.hero-card:hover {
-  border-color: var(--border-hi);
-  background: var(--card-hover);
-  transform: translateX(5px);
-  box-shadow: -4px 0 24px var(--primary-glow);
-}
-.hero-card:hover::before {
-  opacity: 1;
-}
-.hero-card-label {
-  font-family: var(--font-mono);
-  font-size: 9px;
-  font-weight: 700;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  margin-bottom: 8px;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-.hero-card-label::before {
-  content: '//';
-  color: var(--text-2);
-}
-.hero-card.services .hero-card-label {
-  color: #FF928C;
-}
-.hero-card.products .hero-card-label {
-  color: var(--gold);
-}
-.hero-card h3 {
-  font-size: 15px;
-  font-weight: 600;
-  color: var(--text-1);
-  margin-bottom: 6px;
-  letter-spacing: -0.01em;
-}
-.hero-card p {
-  font-size: 13px;
-  color: var(--text-1);
-  line-height: 1.65;
-  font-weight: 300;
-}
-
-.hero-stats {
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  border: 1px solid var(--border);
-  border-radius: 4px;
-  overflow: hidden;
-  background: var(--card);
-}
-.hero-stat {
-  padding: 18px 14px;
-  text-align: center;
-  border-right: 1px solid var(--border);
-  transition: background 0.2s;
-}
-.hero-stat:last-child {
-  border-right: none;
-}
-.hero-stat:hover {
-  background: var(--card-hover);
-}
-.hero-stat-num {
-  font-family: var(--font-serif);
-  font-size: 30px;
-  font-weight: 600;
-  color: var(--gold);
-  line-height: 1;
-  margin-bottom: 4px;
-  text-shadow: 0 0 16px rgba(201,168,76,0.5);
-}
-.hero-stat-label {
-  font-size: 10px;
-  color: var(--text-2);
-  letter-spacing: 0.08em;
-  font-family: var(--font-mono);
-}
 
 /* ── SECTION EYEBROW ── */
 .section-eyebrow {
